@@ -1,6 +1,5 @@
 import java.util.Scanner;
-public class Frequency
-{
+public class Frequency {
     void char_freq()
     {
         int[] freq;

@@ -1,8 +1,7 @@
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
-public class Sleep
-{
+public class Sleep {
     @SuppressWarnings("CallToPrintStackTrace")
     public static void main(String []args)
     {
@@ -16,7 +15,7 @@ public class Sleep
                 {
                     for(int j=0;j<=i;j++)
                         System.out.print(input.charAt(j) + " ");
-                    TimeUnit.SECONDS.sleep(2);
+                    TimeUnit.SECONDS.sleep(1);
                     System.out.println();
                 }
             }

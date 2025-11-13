@@ -1,7 +1,7 @@
 public class Stack
 {
-    private int maxSize;
-    private long[] stackArray;
+    private final int maxSize;
+    private final long[] stackArray;
     private int top;
     public Stack(int s)
     {
